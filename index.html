@@ -1,0 +1,178 @@
+<html>
+
+<head>
+  <title>Sneaker's Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/cbaf59e49b.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="LOGO.png" type="image/x-icon">
+</head>
+
+<body>
+
+  <nav>
+    <div class="logo">Exclusive Sneakers</div>
+    <input type="checkbox" id="click" style="display: none;">
+    <label for="click" class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <ul>
+      <li><a href="#men">Men's</a></li>
+      <li><a href="#women">Women's</a></li>
+      <li><a href="#unisex">Unisex</a></li>
+    </ul>
+  </nav>
+
+  <div class="announcement">
+    <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+      *** 50% Off on first purchase! ***
+    </marquee>
+  </div>
+
+  <!-- Hero Section - Start -->
+  <section class="text-gray-600 body-font">
+    <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+      <img id="img1" class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero"
+        src="sneaker2.png">
+      <div class="text-center lg:w-2/3 w-full">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">The Nike Dunk Low Se 'World
+          Champ'</h1>
+        <p class="mb-8 leading-relaxed">The Nike Dunk Low SE ‘World Champ’ belies the shoe’s simplistic two-tone
+          color scheme with extravagant details inspired by professional wrestling. The low-top sports a white
+          leather upper with contrasting black overlays that reveal a subtle cracked texture. Matching black
+          accents land on the patent leather Swoosh and heel tab, the latter marked with embroidered Nike
+          branding in metallic gold letters. Gold plated lace jewels replicate the look of a wrestling
+          championship belt, while a purple-hued sockliner displays a zebra-striped Nike logo.</p>
+        <div class="flex justify-center">
+          <a href="https://www.goat.com/sneakers/dunk-low-world-champ-dr9511-100" target="_"><button
+              class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+              id="hero-btn1">Buy Now</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Hero Section - End -->
+
+  <!-- Men's Section - Start -->
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto" id="men">
+      <h1>Men's</h1>
+      <div class="flex flex-wrap -m-4">
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="men1.png">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Men's Exclusive</h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">Nike Air Zoom Pegasus 39</h2>
+            <p class="mt-1">$130</p>
+            <a href="https://www.nike.com/t/air-zoom-pegasus-39-air-hola-lou-mens-road-running-shoes-d4dvtm/DH4071-008"
+              target="_"><button class="buynow">Buy Now</button></a>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="men2.png">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Men's Exclusive</h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">Nike Air Force 1 '07</h2>
+            <p class="mt-1">$110</p>
+            <a href="https://www.nike.com/t/air-force-1-07-mens-shoes-xDpsTk/CT2302-100" target="_"><button
+                class="buynow">Buy Now</button></a>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="men3.png">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Men's Exclusive</h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">Nike Air Zoom Flight 95</h2>
+            <p class="mt-1">$160</p>
+            <a href="https://www.nike.com/t/air-zoom-flight-95-mens-shoes-RDmTwp/DM0524-100" target="_"><button
+                class="buynow">Buy Now</button></a>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="men4.png">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Men's Exclusive</h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">Nike Air Max 90</h2>
+            <p class="mt-1">$130</p>
+            <a href="https://www.nike.com/t/air-max-90-mens-shoes-WrB10b/DZ4398-001" target="_"><button
+                class="buynow">Buy Now</button></a>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="men5.png">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Men's Exclusive</h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">Nike Air Max Terrascape Plus</h2>
+            <p class="mt-1">$185</p>
+            <a href="https://www.nike.com/t/air-max-terrascape-plus-mens-shoes-2bxm1R/DQ3977-001" target="_"><button
+                class="buynow">Buy Now</button></a>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="men6.png">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Men's Exclusive</h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">Nike SB Nyjah Free 2</h2>
+            <p class="mt-1">$100</p>
+            <a href="https://www.nike.com/t/sb-nyjah-free-2-premium-skate-shoes-s4Kt9q/BV2078-100"><button
+                class="buynow">Buy Now</button></a>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="men7.png">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Men's Exclusive</h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">Nike Air Force 1 07 LV8
+            </h2>
+            <p class="mt-1">$130</p>
+            <a href="https://www.nike.com/t/air-force-1-07-lv8-mens-shoes-FmhLTk/DR9866-001"><button class="buynow">Buy Now</button></a>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="men1.png">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Men's Exclusive</h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">The 400 Blows</h2>
+            <p class="mt-1">$18.40</p>
+            <button class="buynow">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Men's Section - End-->
+
+  <!-- Women's Section - Start -->
+
+  <!-- Women's Section - End -->
+
+  <iframe id="video" src="https://www.youtube.com/embed/DWsUrMfDaG4"></iframe>
+
+</body>
+
+</html>
